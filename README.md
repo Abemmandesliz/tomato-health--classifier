@@ -5,15 +5,18 @@ This repository contains an AI-powered Streamlit web application that classifies
 ---
 
 ## 🌟 Key Features
-- **Real-time Image Classification:** Upload any leaf photo to detect disease symptoms.
+- **Real-time Image Classification:** Detects disease symptoms on uploaded leaf images.
 - **Confidence Thresholding:** Flags low-confidence or non-leaf uploads to prevent false predictions.
-- **Built with TensorFlow/Keras & Streamlit:** Fast, lightweight, and user-friendly interface.
+- **Interactive Web Interface:** Lightweight, intuitive UI built with Streamlit and TensorFlow/Keras.
 
 ---
 
-## 🛠️ How to Run Locally
+## 📁 Repository Structure
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/Abemmandesliz/tomato-health--classifier.git](https://github.com/Abemmandesliz/tomato-health--classifier.git)
-cd tomato-health--classifier
+```text
+tomato-health--classifier/
+├── .gitignore              # Files and directories ignored by Git (e.g., venv)
+├── README.md               # Project documentation and setup guide
+├── app.py                  # Main Streamlit web application script
+├── requirements.txt        # Python package dependencies
+└── tomato_model.keras      # Trained Convolutional Neural Network (CNN) model
